@@ -1,0 +1,27 @@
+.canvas {
+  flex: 1;
+  padding: 20px;
+  background-color: #fefefe;
+  border: 2px dashed #ccc;
+  min-height: 500px;
+  position: relative;
+}
+
+.element {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.element:hover {
+  transform: scale(1.02);
+}
+
+.element img {
+  max-width: 100%;
+  border-radius: 5px;
+}
